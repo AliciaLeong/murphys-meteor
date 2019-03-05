@@ -12,12 +12,14 @@ export default class TopMenu extends React.Component {
             <Dropdown item text="About Us">
               <Dropdown.Menu>
                 <Dropdown.Item>Getting here</Dropdown.Item>
+                <Dropdown.Item>Parking</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
-            <Menu.Item>St. Patrick's Day</Menu.Item>
+            <Menu.Item>{"St. Patrick's Day"}</Menu.Item>
             <Dropdown item text="Menus">
               <Dropdown.Menu>
                 <Dropdown.Item>Lunch Menu</Dropdown.Item>
+                <Dropdown.Item>Dunner Menu</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
             <Menu.Item>Bar</Menu.Item>

@@ -14,6 +14,9 @@ export default class Bottom extends React.Component {
                   <List.Item>
                     Monday – Friday: 11:00am – 2:30pm
                   </List.Item>
+                  <List.Item>
+                    Saturday – Sunday: Not open for lunch
+                  </List.Item>
                 </List>
               </Grid.Column>
               <Grid.Column>
@@ -21,7 +24,10 @@ export default class Bottom extends React.Component {
                 <hr/>
                 <List>
                   <List.Item>
-                    Monday – Friday: 11:00am – 2:30pm
+                    Monday – Friday: From 11:00am
+                  </List.Item>
+                  <List.Item>
+                    Saturday – Sunday: from 4:00pm
                   </List.Item>
                 </List>
               </Grid.Column>
@@ -30,7 +36,10 @@ export default class Bottom extends React.Component {
                 <hr/>
                 <List>
                   <List.Item>
-                    Monday – Friday: 11:00am – 2:30pm
+                  Monday – Saturday: 5:30pm – 10:00pm
+                </List.Item>
+                  <List.Item>
+                    Sunday: 5:00pm – 9:00pm
                   </List.Item>
                 </List>
               </Grid.Column>
